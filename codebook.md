@@ -21,7 +21,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 4. Appropriately label the data set with descriptive activity names. 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##1. MERGING TRAINING & TEST SETS
+## 1. MERGING TRAINING & TEST SETS
 
 The following text files were imported and merged. Column names were assigned at the time each file was imported and prior to merge. Files were imported individually and applicable files were then merged into sets, first all files in the TRAINING set (_train.txt) then all files in the TEST set (_test.txt). This was done prior to merging the two sets into one larger data set. The features and activity_labels files had column names assigned but were not merged and will be used later.
 
