@@ -1,4 +1,3 @@
-unzip(zipfile="./data/Dataset.zip",exdir="./data")
 unzip(zipfile="./midtermdata/Dataset.zip",exdir="./midtermdata")
 list.files("D:/rlang/midtermdata")
 
@@ -16,7 +15,7 @@ subject_test = read.table(file.path(pathdata, "test", "subject_test.txt"),header
 
 features = read.table(file.path(pathdata, "features.txt"),header = FALSE)
 
-activityLabels = read.table(file.path(pathdata, "activity_labels.txt"),header = FALSE)
+activityLabels <- read.table(file.path(pathdata, "activity_labels.txt"),header = FALSE)
 
 colnames(xtrain) = features[,2]
 colnames(ytrain) = "activityId"
