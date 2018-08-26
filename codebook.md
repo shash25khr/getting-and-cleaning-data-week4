@@ -1,4 +1,4 @@
-#GETTING AND CLEANING DATA WEEK 4 PROJECT Ruben Jongstra
+# GETTING AND CLEANING DATA WEEK 4 PROJECT Ruben Jongstra
 
 ##Description This code book summarizes the data and variables in tidyData.txt -- this is the output of the Week 4 project in the JHU course Getting & Cleaning Data while providing information on the Data Set and Attributes used from the original study
 
